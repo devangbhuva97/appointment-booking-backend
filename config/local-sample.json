@@ -1,0 +1,12 @@
+{
+  "start_time": "01:00 PM",
+  "end_time": "10:00 PM",
+  "duration": 30,
+  "timezone": "America/Toronto",
+  "date_format": "YYYY-MM-DD",
+  "date_time_format": "YYYY-MM-DD hh:mm A",
+  "firestore": {
+    "collection": "appointments",
+    "project_id": "appointment-booking-298815"
+  }
+}
