@@ -40,6 +40,7 @@ Application will start on `http://localhost:3000/graphql`
       "timezone": "US/Eastern"
     }
     ```
+    ***Note**: Date must be in YYYY-MM-DD format.*
 
 2. To get booked events
     ```
@@ -57,6 +58,7 @@ Application will start on `http://localhost:3000/graphql`
       "timezone": "US/Eastern"
     }
     ```
+    ***Note**: Start date and end date must be in YYYY-MM-DD format.*
 
 ##### Mutation
 1. To create event
@@ -77,4 +79,5 @@ Application will start on `http://localhost:3000/graphql`
         "timezone": "US/Eastern"
       }
     }
-    ```   
+    ```
+    ***Note**: Date time must be in YYYY-MM-DD hh:mm A format.*  
