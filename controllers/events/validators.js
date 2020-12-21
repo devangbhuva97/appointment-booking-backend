@@ -38,10 +38,6 @@ const getEvents = (params) => {
   const isValidStartEndDate = moment(start_date).isSameOrBefore(end_date);
   if (!isValidStartEndDate) return { isValid: false, errorMessage: MESSAGES.INVALID_START_DATE_END_DATE };
 
-  const today = momentTZ.tz(TIMEZONE).format(DATE_FORMAT);
-  const isValidDates = moment(end_date).isSameOrBefore(today);
-  if (!isValidDates) return { isValid: false, errorMessage: MESSAGES.DATES_BEFORE_TODAY };
-
   const isValidTimezone = ALL_TIMEZONES.includes(timezone);
   if (!isValidTimezone) return { isValid: false, errorMessage: MESSAGES.INVALID_TIMEZONE };
 

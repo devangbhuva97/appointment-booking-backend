@@ -12,7 +12,6 @@ const MESSAGES = {
   INVALID_START_DATE_FORMAT: `Start date must be ${DATE_FORMAT} format.`,
   INVALID_END_DATE_FORMAT: `End date must be ${DATE_FORMAT} format.`,
   INVALID_START_DATE_END_DATE: 'Start date must be same or before end date.',
-  DATES_BEFORE_TODAY: 'Date(s} must be same or before today.',
   INVALID_DATE_TIME_FORMAT: `Date time must be ${DATE_TIME_FORMAT} format.`,
   INVALID_DURATION: 'Duration must be between 10 to 60.',
   DATE_TIME_AFTER_CURRENT_TIME: 'Date time must be same or after current date time.',
